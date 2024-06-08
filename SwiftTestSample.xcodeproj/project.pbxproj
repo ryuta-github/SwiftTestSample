@@ -15,6 +15,7 @@
 		6AC368EB2C133123000688A2 /* SwiftTestSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC368EA2C133123000688A2 /* SwiftTestSampleTests.swift */; };
 		6AC368F52C133123000688A2 /* SwiftTestSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC368F42C133123000688A2 /* SwiftTestSampleUITests.swift */; };
 		6AC368F72C133123000688A2 /* SwiftTestSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC368F62C133123000688A2 /* SwiftTestSampleUITestsLaunchTests.swift */; };
+		6AC369052C13335B000688A2 /* MultiplyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC369042C13335B000688A2 /* MultiplyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		6AC368F02C133123000688A2 /* SwiftTestSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTestSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC368F42C133123000688A2 /* SwiftTestSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestSampleUITests.swift; sourceTree = "<group>"; };
 		6AC368F62C133123000688A2 /* SwiftTestSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTestSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6AC369042C13335B000688A2 /* MultiplyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		6AC368D62C133122000688A2 /* SwiftTestSample */ = {
 			isa = PBXGroup;
 			children = (
+				6AC369032C13332C000688A2 /* Model */,
 				6AC368D72C133122000688A2 /* SwiftTestSampleApp.swift */,
 				6AC368D92C133122000688A2 /* ContentView.swift */,
 				6AC368DB2C133122000688A2 /* Item.swift */,
@@ -128,6 +131,14 @@
 				6AC368F62C133123000688A2 /* SwiftTestSampleUITestsLaunchTests.swift */,
 			);
 			path = SwiftTestSampleUITests;
+			sourceTree = "<group>";
+		};
+		6AC369032C13332C000688A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6AC369042C13335B000688A2 /* MultiplyModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,6 +274,7 @@
 				6AC368DA2C133122000688A2 /* ContentView.swift in Sources */,
 				6AC368DC2C133122000688A2 /* Item.swift in Sources */,
 				6AC368D82C133122000688A2 /* SwiftTestSampleApp.swift in Sources */,
+				6AC369052C13335B000688A2 /* MultiplyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
